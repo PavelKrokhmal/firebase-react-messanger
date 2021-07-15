@@ -4,17 +4,9 @@ import {BrowserRouter} from 'react-router-dom'
 import firebase from 'firebase'
 import 'firebase/firestore'
 import 'firebase/auth'
+import firebaseConfig from './firebaseConfig'
 
 import App from './App';
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAfe3GLNmN_v9EDhwmPvJn_ga5uOgi0c_o",
-  authDomain: "chat-react-b9df5.firebaseapp.com",
-  projectId: "chat-react-b9df5",
-  storageBucket: "chat-react-b9df5.appspot.com",
-  messagingSenderId: "847969231296",
-  appId: "1:847969231296:web:b25c80fd4fd7a9db15a825"
-};
 
 firebase.initializeApp(firebaseConfig);
 
