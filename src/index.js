@@ -23,7 +23,6 @@ export const Context = createContext(null)
 const auth = firebase.auth()
 const firestore = firebase.firestore()
 
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
